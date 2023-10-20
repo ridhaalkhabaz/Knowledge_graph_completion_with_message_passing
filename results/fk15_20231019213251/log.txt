@@ -1,0 +1,25 @@
+
+python seal_link_pred.py --dataset fk15 --num_hops 1 --eval_steps 5 --epochs 30
+Total number of parameters is 101058
+SortPooling k is set to 39
+AUC
+Run: 01, Epoch: 05, Loss: 0.2802, Valid: 95.03%, Test: 94.66%
+AUC
+Run: 01, Epoch: 10, Loss: 0.2774, Valid: 95.15%, Test: 94.71%
+AUC
+Run: 01, Epoch: 15, Loss: 0.2750, Valid: 95.13%, Test: 94.72%
+AUC
+Run: 01, Epoch: 20, Loss: 0.2740, Valid: 95.15%, Test: 94.78%
+AUC
+Run: 01, Epoch: 25, Loss: 0.2730, Valid: 95.20%, Test: 94.76%
+AUC
+Run: 01, Epoch: 30, Loss: 0.2719, Valid: 95.24%, Test: 94.79%
+AUC
+Run 01:
+Highest Valid: 95.24
+Highest Eval Point: 6
+   Final Test: 94.79
+AUC
+All runs:
+Highest Valid: 95.24 ± nan
+   Final Test: 94.79 ± nan
