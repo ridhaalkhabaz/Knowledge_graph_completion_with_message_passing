@@ -33,6 +33,8 @@ python seal_link_pred.py --dataset fk15 --num_hops 1 --eval_steps 5 --epochs 20
 
 please note that you need to download the data first. 
 
+In `li_work_rep` folder, we include the necessary scripts to reproduce [https://aclanthology.org/2023.acl-long.597.pdf](Li et al work). Please note, you need to download the data in similar fashion to reproduce. Also, it takes more than 5 hours to produce a single experiment. 
+
 * **Analysis**
 Since knwoledge graphs at hands have little to no node features, it might be implied that message passing techniques on generated noise might result in poor perform. Thus, the neural node labeling applied in SEAL is a good first step. 
 
