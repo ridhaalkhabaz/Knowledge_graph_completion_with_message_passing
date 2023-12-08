@@ -1,1 +1,0 @@
-python seal_link_pred.py --dataset fk15 --num_hops 1 --epochs 3

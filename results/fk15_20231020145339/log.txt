@@ -1,6 +1,0 @@
-
-python seal_link_pred.py --dataset fk15 --num_hops 1 --epochs 3
-Total number of parameters is 101058
-SortPooling k is set to 39
-MRR
-Run: 01, Epoch: 01, Loss: 0.2951, Valid: 97.36%, Test: 97.26%

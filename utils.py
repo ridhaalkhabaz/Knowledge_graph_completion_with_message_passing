@@ -191,26 +191,26 @@ def do_edge_split(dataset, fast_split=False, val_ratio=0.05, test_ratio=0.1):
     data = dataset[0]
     random.seed(234)
     torch.manual_seed(234)
-    print('check oone')
+    # print('check oone')
     if not fast_split:
-        print('check two')
+        # print('check two')
         data = train_test_split_edges(data, val_ratio, test_ratio)
-        print('thre')
+        # print('thre')
         edge_index, _ = add_self_loops(data.train_pos_edge_index)
-        print('four')
+        # print('four')
         data.train_neg_edge_index = negative_sampling(
             edge_index, num_nodes=data.num_nodes,
             num_neg_samples=data.train_pos_edge_index.size(1))
     else:
-        print('check ttwo')
+        # print('check ttwo')
         num_nodes = data.num_nodes
         row, col = data.edge_index
     
-        print('check thre')
-        print(row, col)
+        # print('check thre')
+        # print(row, col)
         # Return upper triangular portion.
         mask = row < col
-        print(mask.shape)
+        # print(mask.shape)
         row, col = row[mask], col[mask]
         n_v = int(math.floor(val_ratio * row.size(0)))
         n_t = int(math.floor(test_ratio * row.size(0)))
