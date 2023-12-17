@@ -27,8 +27,8 @@ Here, we study the **Knowledge Graph Completion** (KGC). We challenge the recent
 * **Running**: to reproduce our seal resutls, run the following notebook:
 * SEAL replication: `seal_exp.ipynb`
 * Embed replication : `node2vec.ipynb`
-* RCGNN: `gcn.ipynb`
-* results: `visualizations.ipynb`
+* rGNN: `rgcn.ipynb`
+* results: can ve viewed in `visualizations.ipynb`
 
 
 please note that you need to download the data first. 
